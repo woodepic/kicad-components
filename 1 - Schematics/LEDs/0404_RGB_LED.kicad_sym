@@ -1,0 +1,199 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "0404_RGB_LED" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "DL" (at 11.43 6.35 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "0404_RGB_LED" (at 13.97 3.81 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "0404_RGB_LED:0404_RGB_LED" (at 15.24 -25.4 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "" (at 17.78 -26.67 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "ki_fp_filters" "SON_BBQFMF3_WFS SON_BBQFMF3_WFS-M SON_BBQFMF3_WFS-L" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "0404_RGB_LED_0_1"
+      (polyline
+        (pts
+          (xy 7.62 -15.24)
+          (xy 17.78 -15.24)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -7.62)
+          (xy 17.78 -7.62)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 17.78 0)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -17.78)
+          (xy 17.78 -12.7)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -15.24)
+          (xy 22.86 -12.7)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -10.16)
+          (xy 17.78 -5.08)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -7.62)
+          (xy 22.86 -5.08)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -2.54)
+          (xy 17.78 2.54)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 0)
+          (xy 22.86 2.54)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -17.78)
+          (xy 17.78 -15.24)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -15.24)
+          (xy 30.48 -15.24)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -12.7)
+          (xy 22.86 -17.78)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -10.16)
+          (xy 17.78 -7.62)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -7.62)
+          (xy 30.48 -7.62)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -5.08)
+          (xy 22.86 -10.16)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -2.54)
+          (xy 17.78 0)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 0)
+          (xy 30.48 0)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 2.54)
+          (xy 22.86 -2.54)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 30.48 -22.86)
+          (xy 7.62 -22.86)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 30.48 0)
+          (xy 30.48 -22.86)
+        )
+        (stroke (width 0.127) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "0404_RGB_LED_1_1"
+      (pin power_out line (at 0 0 0) (length 7.62)
+        (name "Blue" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_out line (at 0 -7.62 0) (length 7.62)
+        (name "Green" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_out line (at 0 -15.24 0) (length 7.62)
+        (name "Red" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 -22.86 0) (length 7.62)
+        (name "Anode" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
