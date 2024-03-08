@@ -18,7 +18,7 @@
     (symbol "0404_RGB_LED_0_1"
       (polyline
         (pts
-          (xy 7.62 -15.24)
+          (xy 11.43 -15.24)
           (xy 17.78 -15.24)
         )
         (stroke (width 0.127) (type default))
@@ -26,7 +26,7 @@
       )
       (polyline
         (pts
-          (xy 7.62 -7.62)
+          (xy 11.43 -7.62)
           (xy 17.78 -7.62)
         )
         (stroke (width 0.127) (type default))
@@ -34,7 +34,7 @@
       )
       (polyline
         (pts
-          (xy 7.62 0)
+          (xy 11.43 0)
           (xy 17.78 0)
         )
         (stroke (width 0.127) (type default))
@@ -99,7 +99,7 @@
       (polyline
         (pts
           (xy 22.86 -15.24)
-          (xy 30.48 -15.24)
+          (xy 25.4 -15.24)
         )
         (stroke (width 0.127) (type default))
         (fill (type none))
@@ -123,7 +123,7 @@
       (polyline
         (pts
           (xy 22.86 -7.62)
-          (xy 30.48 -7.62)
+          (xy 25.4 -7.62)
         )
         (stroke (width 0.127) (type default))
         (fill (type none))
@@ -147,7 +147,7 @@
       (polyline
         (pts
           (xy 22.86 0)
-          (xy 30.48 0)
+          (xy 25.4 0)
         )
         (stroke (width 0.127) (type default))
         (fill (type none))
@@ -162,36 +162,28 @@
       )
       (polyline
         (pts
-          (xy 30.48 -22.86)
-          (xy 7.62 -22.86)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 30.48 0)
-          (xy 30.48 -22.86)
+          (xy 25.4 0)
+          (xy 25.4 -15.24)
         )
         (stroke (width 0.127) (type default))
         (fill (type none))
       )
     )
     (symbol "0404_RGB_LED_1_1"
-      (pin power_out line (at 0 0 0) (length 7.62)
+      (pin power_out line (at 8.89 -7.62 0) (length 2.54)
         (name "Blue" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 0 -7.62 0) (length 7.62)
+      (pin power_out line (at 8.89 -15.24 0) (length 2.54)
         (name "Green" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 0 -15.24 0) (length 7.62)
+      (pin power_out line (at 8.89 0 0) (length 2.54)
         (name "Red" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -22.86 0) (length 7.62)
-        (name "Anode" (effects (font (size 1.27 1.27))))
+      (pin power_in line (at 27.94 -7.62 180) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
     )
